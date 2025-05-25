@@ -1,0 +1,85 @@
+# macOS
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Metro bundler cache
+.cache/
+
+# React Native packager cache
+**/packager-cache-*
+**/react-native-*/*.tmp
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/.cxx/
+android/local.properties
+android/gradle.properties
+android/.externalNativeBuild/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace
+ios/Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Buck
+buck-out/
+\.buckd/
+\.buckconfig.local
+\.buckversion
+
+# Expo
+.expo/
+.expo-shared/
+
+# Testing
+coverage/
+*.lcov
+
+# VS Code
+.vscode/
+
+# Misc
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pem
+*.crt
+*.cer
+*.der
+*.key
+*.mobileprovision
+*.xcarchive
+*.xcuserstate
+*.lock
+.idea/
+*.swp
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Firebase / Google services files
+android/app/google-services.json
+ios/GoogleService-Info.plist
