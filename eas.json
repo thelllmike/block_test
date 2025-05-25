@@ -1,0 +1,15 @@
+{
+	"cli": {
+	  "version": ">= 3.13.0",
+	  "appVersionSource": "local"      // ← must be "local" or "remote"
+	},
+  
+	"build": {
+	  "internal-apk": {
+		"distribution": "internal",
+		"android": {
+		  "buildType": "apk"
+		}
+	  }
+	}
+  }
